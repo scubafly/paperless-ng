@@ -1,3 +1,11 @@
+#This setups paperless-ng on your synology NAS.
+
+Original repo can be found here: https://github.com/jonaswinkler/paperless-ng
+
+This will install jonaswinkler/paperless-ng:latest ( Tested with 1.1.0 )
+
+##Installation
+
 Template setup for paperless-ng
 
 Enable SSH, login via putty (or other ssh client tool of your choice), execute sudo -i to become root and go to a new paperless folder.
