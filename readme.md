@@ -19,8 +19,9 @@ Template setup for paperless-ng
 - After the all the containers are up and main container is healthy create the superuser account by executing this command:
 
 - docker-compose run --rm webserver createsuperuser
-
 This will let you choose you superuser username and password. The password you can change later.
+
+- Find your paperless instance at your nas ip on port 8000 ( or whatever you have set it to ). Example: http://192.168.1.2:8000
 
 Original setup tutorial found here:
 https://www.synoforum.com/threads/paperless-ng.5021/post-22562
