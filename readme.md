@@ -1,14 +1,10 @@
 Template setup for paperless-ng
 
-Change folder mounts, ports, password, and username.
+Enable SSH, login via putty (or other ssh client tool of your choice), execute sudo -i to become root and go to a new paperless folder.
 
-Make mount folders on synology nas
+Clone this repository.
 
-ssh to synology nas
-
-Make the folder on your Synology SmartHome/paperless and copy the .yml and .env files to it.
-
-Enable SSH, login via putty (or other ssh client tool of your choice), execute sudo -i to become root and go to docker/paperless-ng folder.
+Change folder mounts, ports, password, and username as you please and update the composer.yml file
 
 Execute docker-compose up -d and wait for the main container to become healthy
 
